@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+.profile {
+	height: 58px;
+	margin-top: -4px;	
+	overflow: hidden;
+}
+.profile ul {
+	position: relative;
+	display: inline-block;
+	padding: 0px;
+}
+.profile ul li {
+	float: left;
+	list-style-type: none;
+	padding: 0px 30px 0px 30px;
+	font-size: 13px;
+	height: 30px;
+	text-align: center;
+	display: table;
+	vertical-align: middle;
+}
+.profile ul li span {
+	display: table-cell; 
+	vertical-align: inherit;
+}
+.profile ul a:link li {
+	text-decoration: underline;
+	color: #cfc28d;
+}
+.profile ul a:visited li {
+	text-decoration: underline;
+	color: #cfc28d;
+}
+.profile ul a:hover li {
+	text-decoration: none;
+	color: #cfc28d;
+}
+.profile ul a:active li {
+	text-decoration: none;
+	color: #cfc28d;
+}
+.profile-links {
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-khtml-border-radius: 6px;
+	border: 1px solid transparent;
+	-webkit-transition: border .1s ease;
+	-moz-transition: border .1s ease;
+	-o-transition: border .1s ease;
+	transition: border .1s ease;
+}
+.profile-links:hover {
+	border: 1px solid #a95454;
+	-webkit-transition: border .1s ease;
+	-moz-transition: border .1s ease;
+	-o-transition: border .1s ease;
+	transition: border .1s ease;
+}
+.profile-links-active {
+	border: 1px solid #a95454;
+}
+.profile ul a:link .profile-links-active {
+	text-decoration: none;
+	color: #cfc28d;
+}
+.profile ul a:visited .profile-links-active {
+	text-decoration: none;
+	color: #cfc28d;
+}
+.profile ul a:hover .profile-links-active {
+	text-decoration: none;
+	color: #cfc28d;
+}
+.profile ul a:active .profile-links-active {
+	text-decoration: none;
+	color: #cfc28d;
+}

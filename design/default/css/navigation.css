@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navigation {
+	position: relative;
+	height: 58px;
+	margin: auto;
+	overflow: hidden;
+}
+.navigation ul {
+	margin-top: 10px;
+	display: inline-block;
+	padding: 0px;
+}
+
+.navigation ul a{
+	display: block;
+	padding: 8px 30px;
+	font-weight: bold;
+}
+
+.navigation ul a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+.navigation ul a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+.navigation ul a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+.navigation ul a:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+.navigation ul li {
+	float: left;
+	list-style-type: none;
+	font-size: 13px;
+	text-align: center;
+	display: table;
+	vertical-align: middle;
+}
+
+.navigation-links {
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-khtml-border-radius: 6px;
+	border: 1px solid transparent;
+	-webkit-transition: border .1s ease;
+	-moz-transition: border .1s ease;
+	-o-transition: border .1s ease;
+	transition: border .1s ease;
+}
+.navigation-links:hover {
+	border: 1px solid #a95454;
+	-webkit-transition: border .1s ease;
+	-moz-transition: border .1s ease;
+	-o-transition: border .1s ease;
+	transition: border .1s ease;
+}
+.navigation-links-active {
+	border: 1px solid #a95454;
+}
+.navigation ul a:link .navigation-links-active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.navigation ul a:visited .navigation-links-active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.navigation ul a:hover .navigation-links-active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.navigation ul a:active .navigation-links-active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
